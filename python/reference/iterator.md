@@ -57,3 +57,7 @@ Traceback (most recent call last):
     raise StopIteration
 StopIteration
 ```
+
+### Reference
+
+[1] [docs.python.org/3/tutorial/classes.html#iterators](https://docs.python.org/3/tutorial/classes.html#iterators)
