@@ -11,7 +11,7 @@ for operating network services.
 ### Workflow
 1. Create the `~/.ssh` directory and move to it: `mkdir ~/.ssh && cd ~/.ssh`.
 2. Create a key pair: `ssh-keygen -t ed25519`.
-3. Activate an agent: `eval "$(ssh-agent -s)"`
+3. Activate an agent: `eval "$(ssh-agent -s)"`.
 4. Add the private key to the agent: `ssh-add id_ed25519`.
 5. Copy the public key: `pbcopy < id_ed25519.pub`.
 6. Add the public key to the server: `~/.ssh/id_ed25519.pub`.
@@ -49,6 +49,6 @@ The key's randomart image is:
 ```
 
 ### Reference
-
 [1] [en.wikipedia.org/wiki/Secure_Shell](https://en.wikipedia.org/wiki/Secure_Shell)
+
 [2] [zah.uni-heidelberg.de/it-guide/ssh-tutorial-linux](https://zah.uni-heidelberg.de/it-guide/ssh-tutorial-linux)
