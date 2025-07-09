@@ -1,21 +1,23 @@
 # Iterator
 
 ### Definition
-An <u>iterator</u> is an object implementing two specific methods:
+An <u>*iterator*</u> is an object implementing two specific methods, which form the <u>*iterator protocol*</u>:
 
 1. `__iter__()`
 - Takes no arguments.
 - Returns the object itself.
 
 2. `__next__()`
-- Takes no argumens.
+- Takes no arguments.
 - Returns the next item and raises `StopIteration` when no items remain.
 
-An <u>iterable</u> is an object implementing `__iter__()` method which takes no arguments and returns iterator.
+An <u>*iterable*</u> is an object implementing method `__iter__()` which takes no arguments and returns an iterator.
+
+A <u>*state*</u> is a private data attributes stored within an iterator.
 
 ### Key Features
-- Stateful: Maintains state between `__next__()` calls.
-- Memory efficient: Processes data without storing it in memory.
+- Stateful: Alows maintaining state between `__next__()` calls.
+- Memory efficient: Allows for processing data sequentially avoiding full storage.
 - `iter(iterable)` invokes `iterable.__iter__()`.
 - `next(iterator)` invokes `iterator.__next__()`.
 
@@ -59,5 +61,8 @@ StopIteration
 ```
 
 ### Reference
+[1] [Python Glossary: Iterator](https://docs.python.org/3/glossary.html#term-iterator)
 
-[1] [docs.python.org/3/tutorial/classes.html#iterators](https://docs.python.org/3/tutorial/classes.html#iterators)
+[2] [Python Docs: Iterators](https://docs.python.org/3/tutorial/classes.html#iterators)
+
+[3] [Python Docs: Iterator Type](https://docs.python.org/3/library/stdtypes.html#iterator-types)
