@@ -9,7 +9,7 @@ An <u>*iterator*</u> is an object implementing two specific methods, which form 
 
 2. `__next__()`
 - Takes no arguments.
-- Returns the next item and raises `StopIteration` when no items remain.
+- Returns the next item. When no items remain, raises the `StopIteration` exception.
 
 An <u>*iterable*</u> is an object implementing method `__iter__()` which takes no arguments and returns an iterator.
 
