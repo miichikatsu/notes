@@ -1,6 +1,6 @@
 # Iterator
 
-### Definition
+### Definitions
 An <u>*iterator*</u> is an object implementing two specific methods, which form the <u>*iterator protocol*</u>:
 
 1. `__iter__()`
@@ -15,13 +15,13 @@ An <u>*iterable*</u> is an object implementing method `__iter__()` which takes n
 
 A <u>*state*</u> is a private data attributes stored within an iterator.
 
-### Key Features
+### Features
 - Stateful: Alows maintaining state between `__next__()` calls.
 - Memory efficient: Allows for processing data sequentially avoiding full storage.
 - `iter(iterable)` invokes `iterable.__iter__()`.
 - `next(iterator)` invokes `iterator.__next__()`.
 
-### Implementation
+### Implementations
 ```python
 class SimpleIterator():
     def __init__(self, data):
@@ -60,7 +60,7 @@ Traceback (most recent call last):
 StopIteration
 ```
 
-### Reference
+### References
 [1] [Python Glossary: Iterator](https://docs.python.org/3/glossary.html#term-iterator)
 
 [2] [Python Docs: Iterators](https://docs.python.org/3/tutorial/classes.html#iterators)

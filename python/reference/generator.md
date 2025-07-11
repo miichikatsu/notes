@@ -1,6 +1,6 @@
 # Generator
 
-### Definition
+### Definitions
 A <u>*generator*</u> is an iterator created by a generator function or expression.
 
 A <u>*generator function*</u> is a function that contains one or more `yield` or `yield from` statements which return a generator.
@@ -14,7 +14,7 @@ A <u>*generator expression*</u> is an expression that returns an iterator. It is
 - Allows binding the current `yield` statement to a value via method `send(value)`.
 - Allows raising an exception and close the generator at the current state via methods `throw(Exception)` and `close()`.
 
-### Implementation
+### Implementations
 ```python
 def fibonacci_generator(n: int, /):
     """Generate a given number elements from the Fibonacci sequence."""
@@ -79,7 +79,7 @@ Traceback (most recent call last):
 StopIteration
 ```
 
-### Reference
+### References
 [1] [Python Glossary: Generator](https://docs.python.org/3/glossary.html#term-generator)
 
 [2] [Python Docs: Yield Statement](https://docs.python.org/3/reference/simple_stmts.html#the-yield-statement)

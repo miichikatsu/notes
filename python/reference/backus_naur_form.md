@@ -27,6 +27,6 @@ Extended BNF (EBNF) is used to describe Python syntax.
 ```
 
 ### References
-[1] [Python Language Reference](https://docs.python.org/3/reference/introduction.html#notation)
+[1] [Python Language Reference: BNF](https://docs.python.org/3/reference/introduction.html#notation)
 
-[2] [Wikipedia](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
+[2] [Wikipedia: BNF](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
