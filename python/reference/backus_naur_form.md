@@ -22,7 +22,7 @@ Extended BNF (EBNF) is used to describe Python syntax.
 <non_empty_string> ::= <letter>+
 <choice> = "Lose." | "Win."
 <first_name> ::= "Johan"
-<last_name> ::= "Libert"
+<last_name> ::= "Liebert"
 <full_name> ::= <first_name> [<last_name>]
 ```
 
