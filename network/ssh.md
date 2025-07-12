@@ -49,6 +49,6 @@ The key's randomart image is:
 ```
 
 ## References
-[1] [en.wikipedia.org/wiki/Secure_Shell](https://en.wikipedia.org/wiki/Secure_Shell)
+[1] [Wikipedia: Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)
 
-[2] [zah.uni-heidelberg.de/it-guide/ssh-tutorial-linux](https://zah.uni-heidelberg.de/it-guide/ssh-tutorial-linux)
+[2] [Heidelberg University: SSH Tutorial Linux](https://zah.uni-heidelberg.de/it-guide/ssh-tutorial-linux)
