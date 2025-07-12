@@ -1,23 +1,23 @@
 # Generator
 
-### Definitions
+## Definitions
 A *generator* is an iterator created by a generator function or expression.
 
 A *generator function* is a function that contains one or more `yield` statements and returns a generator.
 
 A *generator expression* is an expression that returns an iterator. It is formed by a normal expression followed by a `for` clause and an optional `if` clause: `item for item in iterable if condition`.
 
-### Features
+## Features
 - Implements the `__iter__()` and `__next__()` methods.
 - Maintains state between yield calls.
 - Generates values one at a time, avoiding a full sequence storage.
 - Allows binding the current `yield` statement to a value via the `send(value)` method.
 - Supports raising exceptions or closing the generator at its current state via the `throw(Exception)` and `close()` methods.
 
-### Implementations
+## Implementations
 [Generator](src/generator.py)
 
-### Examples
+## Examples
 ```python
 >>> sum(x ** 2 for x in range(1, 10))
 285
@@ -60,7 +60,7 @@ Traceback (most recent call last):
 StopIteration
 ```
 
-### References
+## References
 [1] [Python Glossary: Generator](https://docs.python.org/3/glossary.html#term-generator)
 
 [2] [Python Docs: Yield Statement](https://docs.python.org/3/reference/simple_stmts.html#the-yield-statement)

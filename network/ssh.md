@@ -1,14 +1,14 @@
 # Secure Shell Protocol (SSH)
 
-### Definitions
+## Definitions
 The Secure Shell Protocol is a cryptographic protocol 
 for operating network services.
 
-### Features
+## Features
 - Allows establishing a secury connection to a remote server in an insecure network.
 - Based on public-key cryptography.
 
-### Workflows
+## Workflows
 1. Create the `~/.ssh` directory and move to it: `mkdir ~/.ssh && cd ~/.ssh`.
 2. Create a key pair: `ssh-keygen -t ed25519`.
 3. Activate an agent: `eval "$(ssh-agent -s)"`.
@@ -18,7 +18,7 @@ for operating network services.
 7. Establish a connection: `ssh username@ip -p port`.
 8. Terminate the connection: `exit`.
 
-### Examples
+## Examples
 ```bash
 ~/.ssh $ mkdir gitlab && cd gitlab 
 ~/.ssh/gitlab $ ssh-keygen -t ed25519 
@@ -48,7 +48,7 @@ The key's randomart image is:
 ~/.ssh/gitlab $ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL9VgphhuOTggstyOayxsWajwjktOXM6rXovvW0cZt2F username@host.local
 ```
 
-### References
+## References
 [1] [en.wikipedia.org/wiki/Secure_Shell](https://en.wikipedia.org/wiki/Secure_Shell)
 
 [2] [zah.uni-heidelberg.de/it-guide/ssh-tutorial-linux](https://zah.uni-heidelberg.de/it-guide/ssh-tutorial-linux)

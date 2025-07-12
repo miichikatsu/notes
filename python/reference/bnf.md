@@ -1,6 +1,6 @@
 # Backus-Naur Form (BNF)
 
-### Definitions
+## Definitions
 *Backus-Naur form* is a notation system for defining the syntax of formal languages. Key notations:
 
 - `*` - Zero or more.
@@ -12,10 +12,10 @@
 - `<>` - Rule name.
 - `...` - Ellipsis.
 
-### Features
+## Features
 Extended BNF (EBNF) is used to describe Python syntax.
 
-### Examples
+## Examples
 ```
 <letter> = "a" | "b" | ... | "z"
 <string> ::= <letter>*
@@ -26,7 +26,7 @@ Extended BNF (EBNF) is used to describe Python syntax.
 <full_name> ::= <first_name> [<last_name>]
 ```
 
-### References
+## References
 [1] [Python Language Reference: BNF](https://docs.python.org/3/reference/introduction.html#notation)
 
 [2] [Wikipedia: BNF](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
