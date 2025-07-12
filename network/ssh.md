@@ -5,7 +5,7 @@ The Secure Shell Protocol is a cryptographic protocol
 for operating network services.
 
 ### Features
-- Allows establishing secury connection to a remote server in an insecure network.
+- Allows establishing a secury connection to a remote server in an insecure network.
 - Based on public-key cryptography.
 
 ### Workflows
