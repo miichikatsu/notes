@@ -1,7 +1,7 @@
 # Lines
 
 ### Definitions
-A *token* is a small unit of source code, such as name, number, operator, newline or other element created by the lexical analyzer.
+A *token* is a small unit of source code created by the lexical analyzer. The token can have one of the following values: `NEWLINE`, `INDENT`, `DEDENT`, or it can belong to one of the categories: identifiers, delimeters, keywords, operators, literals.
 
 A *lexical analyzer* is a program that tokenizes Python source code.
 
