@@ -3,16 +3,16 @@
 ### Definitions
 A <u>*generator*</u> is an iterator created by a generator function or expression.
 
-A <u>*generator function*</u> is a function that contains one or more `yield` or `yield from` statements which return a generator.
+A <u>*generator function*</u> is a function that contains one or more `yield` statements and returns a generator.
 
 A <u>*generator expression*</u> is an expression that returns an iterator. It is formed by a normal expression followed by a `for` clause and an optional `if` clause: `item for item in iterable if condition`.
 
 ### Features
 - Implements the `__iter__()` and `__next__()` methods.
-- Maintains the state between yield calls.
-- Generates values one at a time avoiding a full sequence storage.
-- Allows binding the current `yield` statement to a value via method `send(value)`.
-- Allows raising an exception and close the generator at the current state via methods `throw(Exception)` and `close()`.
+- Maintains state between yield calls.
+- Generates values one at a time, avoiding a full sequence storage.
+- Allows binding the current `yield` statement to a value via the `send(value)` method.
+- Supports raising exceptions or closing the generator at its current state via the `throw(Exception)` and `close()` methods.
 
 ### Implementations
 ```python
