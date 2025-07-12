@@ -1,7 +1,7 @@
 # Iterator
 
 ### Definitions
-An <u>*iterator*</u> is an object that implements two specific methods, which form the <u>*iterator protocol*</u>:
+An *iterator* is an object that implements two specific methods, which form the *iterator protocol*:
 
 1. `__iter__()`
 - Takes no arguments.
@@ -11,9 +11,9 @@ An <u>*iterator*</u> is an object that implements two specific methods, which fo
 - Takes no arguments.
 - Returns the next item. When no items remain, raises the `StopIteration` exception.
 
-An <u>*iterable*</u> is an object that implements the `__iter__()` method which takes no arguments and returns an iterator.
+An *iterable* is an object that implements the `__iter__()` method which takes no arguments and returns an iterator.
 
-A <u>*state*</u> is internal information used for that maintains the current iteration progress. It consists of local variable values and the current execution point.
+A *state* is internal information used for that maintains the current iteration progress. It consists of local variable values and the current execution point.
 
 ### Features
 - Stateful: Allows maintaining state between `__next__()` calls.

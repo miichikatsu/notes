@@ -1,11 +1,11 @@
 # Generator
 
 ### Definitions
-A <u>*generator*</u> is an iterator created by a generator function or expression.
+A *generator* is an iterator created by a generator function or expression.
 
-A <u>*generator function*</u> is a function that contains one or more `yield` statements and returns a generator.
+A *generator function* is a function that contains one or more `yield` statements and returns a generator.
 
-A <u>*generator expression*</u> is an expression that returns an iterator. It is formed by a normal expression followed by a `for` clause and an optional `if` clause: `item for item in iterable if condition`.
+A *generator expression* is an expression that returns an iterator. It is formed by a normal expression followed by a `for` clause and an optional `if` clause: `item for item in iterable if condition`.
 
 ### Features
 - Implements the `__iter__()` and `__next__()` methods.
