@@ -27,4 +27,6 @@ A *comment* is a subsequence of a physical line starting with the `#` character.
 ## References
 [1] [Python Language Reference: Line Structure](https://docs.python.org/3/reference/lexical_analysis.html#line-structure)
 
-[2] [Python Glossary: Token](https://docs.python.org/3/glossary.html#term-token)
+[2] [Python Language Reference: Tokens](https://docs.python.org/3/reference/lexical_analysis.html#other-tokens)
+
+[3] [Python Glossary: Token](https://docs.python.org/3/glossary.html#term-token)
