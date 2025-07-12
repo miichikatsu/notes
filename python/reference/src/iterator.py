@@ -1,4 +1,5 @@
 class SimpleIterator():
+    """Simple reverse order iterator."""
     def __init__(self, data):
         self._data = data
         self._index = len(data)

@@ -8,10 +8,11 @@ def fibonacci_generator(n: int, /):
         a, b = b, a + b
 
 def accumulator():
+    """Accumulate values via the send() method."""
     total = 0
     while True:
         value = yield
-        print(f"Recieved {value}", end=" ")
+        print(f"Received {value}", end=" ")
         if value is None:
             break
         total += value

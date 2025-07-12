@@ -22,24 +22,7 @@ A *comment* is a subsequence of a physical line starting with the `#` character.
 - Whitespace serves as a separator between tokens.
 
 ### Examples
-```python
-# coding: utf-8
-
-color = 'green'
-weight = 3
-
-# Explicit line joining
-if color == 'green' \
-and weight > 1:
-    print("Good choice!")
-
-# Implicit line joining
-arr = [
-   1, 2, 3,
-   4, 5, 6,
-   7, 8, 9
-]
-```
+[Lines](src/lines.py)
 
 ### References
 [1] [Python Language Reference: Line Structure](https://docs.python.org/3/reference/lexical_analysis.html#line-structure)
