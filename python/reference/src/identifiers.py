@@ -2,10 +2,12 @@
 age = 42
 _first_name = "Alice"
 MAX_SIZE = 100
-résumé = "CV"      # Non-ASCII letters
-ストリング = "str"   # Japanese characters
-_ = "placeholder"  # Common convention
-π = 3.14159        # Greek letter
+résumé = "CV"
+ストリング = "str"
+_ = "placeholder"
+π = 3.14159
+__dunder__ = None
+__class_private = "Mangle"
 
 # Invalid
 # python
