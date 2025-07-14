@@ -1,4 +1,4 @@
-# Iterator
+# Iterators
 
 ## Definitions
 An *iterator* is an object that implements two specific methods, which form the *iterator protocol*:

@@ -1,4 +1,4 @@
-# Generator
+# Generators
 
 ## Definitions
 A *generator* is an iterator created by a generator function or expression.
