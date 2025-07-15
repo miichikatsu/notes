@@ -1,7 +1,7 @@
 # Literals
 integer = 12
 float = 4.5
-complex = 3 + 4j
+imaginary = 4j
 bool = True
 none = None
 string = 'abc'
