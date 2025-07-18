@@ -1,4 +1,4 @@
-# Objects Values Types
+# Objects
 
 ## Definitions
 An *object* is an abstraction for data in Python. Every object has identity, values and type. 
@@ -16,4 +16,4 @@ An object is called *immutable* if it's values are not allowed to be changed.
 A *container* is an object that contains references to other objects.
 
 ## References
-[1] [Python Langugage Reference: Objects, Values and Types](https://docs.python.org/3/reference/datamodel.html)
+[1] [Python Langugage Reference: Objects, Values and Types](https://docs.python.org/3/reference/datamodel.html#objects-values-and-types)
